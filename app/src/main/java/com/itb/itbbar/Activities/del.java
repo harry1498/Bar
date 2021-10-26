@@ -1,4 +1,4 @@
 package com.itb.itbbar.Activities;
 
-public class gti {
+public class del {
 }
