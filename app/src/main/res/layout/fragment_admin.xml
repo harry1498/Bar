@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="@dimen/_8sdp"
+    tools:context=".Fragments.Nav_Drawer_Frags.Admin">
+
+    <LinearLayout
+        android:id="@+id/admin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_22sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_22sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_32sdp" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/otp_section"
+            android:background="@drawable/cardview_layout"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/admin_title"
+            android:padding="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_the_admin_code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <com.goodiebag.pinview.Pinview
+                android:id="@+id/admin_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp"
+                app:cursorVisible="false"
+                app:textSize="@dimen/_10sdp"
+                app:hint="0"
+                app:inputType="number"
+                app:password="false"
+                app:pinBackground="@drawable/example_drawable"
+                app:pinHeight="45dp"
+                app:pinLength="4"
+                app:pinWidth="35dp" />
+
+        </LinearLayout>
+
+    <Button
+        android:layout_width="@dimen/_150sdp"
+        android:layout_below="@id/otp_section"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/button_layout"
+        android:text="@string/submit" />
+</RelativeLayout>

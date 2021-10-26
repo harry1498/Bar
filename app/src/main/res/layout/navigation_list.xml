@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_name">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_drawerName"
+        android:layout_margin="@dimen/_4sdp"
+        android:text="@string/app_name"
+        android:textStyle="italic"
+        android:textSize="@dimen/_15sdp"/>
+
+    <View android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_4sdp"
+        android:background="@color/colorgray"/>
+
+</LinearLayout>

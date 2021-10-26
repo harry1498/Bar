@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Pipe &amp; Barrel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hey_user">Hey User,</string>
+    <string name="trending">Trending</string>
+    <string name="menu">menu</string>
+    <string name="offer">offers</string>
+    <string name="table">table</string>
+    <string name="deals_of_the_day">Deals of the Day!</string>
+    <string name="reservation">Reservation</string>
+    <string name="cart">Cart</string>
+    <string name="events">Events</string>
+    <string name="notification">Notification</string>
+    <string name="home">Home</string>
+    <string name="reservation_history">Reservation History</string>
+    <string name="order_history">Order History</string>
+    <string name="my_address">My Address</string>
+    <string name="specially_for_user">Specially for User</string>
+    <string name="profile">Profile</string>
+    <string name="help_and_support"><![CDATA[Help & Support]]></string>
+    <string name="about">About</string>
+    <string name="reserve_a_table">Reserve a Table</string>
+    <string name="location">Chandigarh Sector 6</string>
+    <string name="pick_a_date">Pick a date</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="today">Today</string>
+    <string name="reserving_a_table_at">Reserving a table at <b><font color="#e0a525">Chandigarh Sector 6</font></b></string>
+    <string name="date">12 Oct, Tuesday</string>
+    <string name="time">12:00pm</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="this_weekend">This Weekend</string>
+    <string name="event_text">Never miss a chance to Dance!! Start Your week with some fun as its Monday Dj Night only at PIPE &amp; BARREL.</string>
+    <string name="event_time">11th October| Monday | 8 pm</string>
+    <string name="amount">amount</string>
+    <string name="order_list">French Fries (2), Signature Chicken (1), Drought Beer (4), \nSmoky BBQ Chicken (2)</string>
+    <string name="order_again">Order Again</string>
+    <string name="users">Upkarsingh45, Ariyan.149 <font color="#808080">and </font> \n4 others <font color="#808080">liked your service. 17h</font></string>
+    <string name="submit">Submit</string>
+    <string name="issue_text">Select Issue Category</string>
+    <string name="issue_details">Issue Details</string>
+    <string name="email_id">Email ID</string>
+    <string name="call_us">Call Us 10822523699</string>
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="pick_a_time">Pick a Time</string>
+
+    <integer-array name="View_pager_Image">
+        <item>@drawable/banner</item>
+        <item>@drawable/banner</item>
+        <item>@drawable/banner</item>
+        <item>@drawable/banner</item>
+        <item>@drawable/banner</item>
+    </integer-array>
+
+    <integer-array name="trending_image">
+        <item>@drawable/menu</item>
+        <item>@drawable/offer</item>
+        <item>@drawable/table</item>
+    </integer-array>
+
+    <string-array name="navigation_list">
+        <item>Home</item>
+        <item>Reservation History</item>
+        <item>Order History</item>
+        <item>My Address</item>
+        <item>Specially for User</item>
+        <item>Notifications</item>
+        <item>Help &amp; Support</item>
+        <item>About</item>
+
+    </string-array>
+
+    <string-array name="trending_list">
+        <item>Menu</item>
+        <item>Offer</item>
+        <item>Table</item>
+    </string-array>
+
+
+    <string-array name="table_RV_list">
+        <item>12:00pm</item>
+        <item>12:30pm</item>
+        <item>01:00pm</item>
+        <item>01:30pm</item>
+        <item>02:00pm</item>
+        <item>02:30pm</item>
+        <item>03:00pm</item>
+        <item>03:30pm</item>
+        <item>04:00pm</item>
+        <item>04:30pm</item>
+        <item>05:00pm</item>
+        <item>05:30pm</item>
+        <item>06:00pm</item>
+        <item>06:30pm</item>
+        <item>07:00pm</item>
+        <item>07:30pm</item>
+        <item>08:00pm</item>
+        <item>08:30pm</item>
+        <item>09:00pm</item>
+        <item>09:30pm</item>
+        <item>10:00pm</item>
+        <item>10:30pm</item>
+    </string-array>
+    <string name="sign_text">Sign up to the world of\n<b><font color="#ffffff">Pipe &amp; Barrel</font></b></string>
+    <string name="login">Login/ Sign Up</string>
+    <string name="signup">OR LOGIN/ \n<b><font color="#ffffff">SIGN UP WITH</font></b></string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="welcome_to">Welcome To</string>
+    <string name="admin"><b>Admin</b></string>
+    <string name="enter_the_admin_code"><b>Enter the Admin Code</b></string>
+
+
+</resources>

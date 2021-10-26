@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/main_Fragment">
+    <fragment
+        android:id="@+id/main_Fragment"
+        android:name="com.itb.itbbar.Fragments.Main_Fragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/navigate_from_main_fragment_to_eventDetails"
+            app:destination="@id/event_Details_Fragment2" />
+        <action
+            android:id="@+id/navigate_from_main_fragment_to_offers"
+            app:destination="@id/offers_Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/event_Details_Fragment2"
+        android:name="com.itb.itbbar.Fragments.Event_Details_Fragment"
+        android:label="Event_Details_Fragment" >
+        <action
+            android:id="@+id/navigate_from_eventDetails_to_main_fragment"
+            app:destination="@id/main_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/offers_Fragment2"
+        android:name="com.itb.itbbar.Fragments.Offers_Fragment"
+        android:label="fragment_offers"
+        tools:layout="@layout/fragment_offers" >
+        <action
+            android:id="@+id/navigate_from_offers_to_main_fragment"
+            app:destination="@id/main_Fragment" />
+    </fragment>
+</navigation>

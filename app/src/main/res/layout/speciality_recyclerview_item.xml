@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:layout_margin="@dimen/_8sdp"
+    app:cardCornerRadius="@dimen/_20sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/speciality_IV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/banner" />
+
+        <TextView
+            android:id="@+id/speciality_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#80000000"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            android:text="Title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

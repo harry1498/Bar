@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "531885731473",
+    "firebase_url": "https://pipebarrel-266d8-default-rtdb.firebaseio.com",
+    "project_id": "pipebarrel-266d8",
+    "storage_bucket": "pipebarrel-266d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531885731473:android:2ba100cce0cc8cf8d8d930",
+        "android_client_info": {
+          "package_name": "com.itb.pipeBarrel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531885731473-k5sihh4r7hnb6cvl7cg6jgn7a2940pem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZbLf1FT7x6lnKOcvEMTS5e5M8B6N8Eak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531885731473-k5sihh4r7hnb6cvl7cg6jgn7a2940pem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

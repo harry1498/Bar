@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_280sdp"
+    android:background="@drawable/app"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:text="@string/login"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/_17sdp"
+                android:textStyle="italic" />
+
+
+            -
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@drawable/round_border"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:text="+ 91"
+                    android:textColor="@color/app_color"
+                    android:textSize="@dimen/_13sdp" />
+
+                <View
+                    android:layout_width="1sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@color/app_color"
+                    tools:ignore="RtlCompat" />
+
+                <EditText
+                    android:id="@+id/ed_mobile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_14sdp"
+                    android:layout_weight="0.9"
+                    android:background="@null"
+                    android:digits="0123456789"
+                    android:hint="Enter Your Mobile Number"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:textColor="@color/app_color"
+                    android:textColorHint="@color/app_color"
+                    android:textSize="@dimen/_10sdp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@drawable/button_selector"
+                android:drawableRight="@drawable/ic_countinue"
+                android:gravity="start|center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_17sdp"
+                android:text="CONTINUE"
+                android:textAllCaps="false"
+                android:textColor="@color/golden"
+                android:textSize="@dimen/_15sdp" />
+
+        </LinearLayout>
+
+
+        -
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:text="@string/signup"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            tools:ignore="RtlCompat">
+
+            <ImageView
+                android:id="@+id/google_sign"
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/gogle" />
+
+            <TextView
+                android:id="@+id/Tv_skip"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_130sdp"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:text="Skip"
+                android:textColor="@color/golden"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/register_fragment">
+
+    <fragment
+        android:id="@+id/register_fragment"
+        android:name="com.itb.itbbar.Fragments.RegisterFragment"
+        android:label="RegisterFragment"
+        tools:layout="@layout/fragment_register">
+
+        <action
+            android:id="@+id/navigation_From_register_to_main"
+            app:destination="@id/mainActivity" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/main_Fragment"
+        android:name="com.itb.itbbar.Fragments.Main_Fragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/navigate_from_main_fragment_to_eventDetails"
+            app:destination="@id/event_Details_Fragment" />
+        <action
+            android:id="@+id/action_main_Fragment_to_offers_Fragment"
+            app:destination="@id/offers_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/event_Details_Fragment"
+        android:name="com.itb.itbbar.Fragments.Event_Details_Fragment"
+        android:label="Event_Details_Fragment">
+        <action
+            android:id="@+id/navigate_from_eventDetails_to_main_fragment"
+            app:destination="@id/main_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/offers_Fragment"
+        android:name="com.itb.itbbar.Fragments.Offers_Fragment"
+        android:label="fragment_offers"
+        tools:layout="@layout/fragment_offers">
+        <action
+            android:id="@+id/action_offers_Fragment_to_main_Fragment"
+            app:destination="@id/main_Fragment" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.itb.itbbar.Activities.MainActivity"
+        android:label="MainActivity" />
+</navigation>
